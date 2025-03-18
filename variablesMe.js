@@ -1,13 +1,10 @@
 "use strict";
 // let greetings: string = "Hellow DInesh";
 Object.defineProperty(exports, "__esModule", { value: true });
-// greetings.toLowerCase();
-// console.log(greetings);
-// //number
-// const userId: number = 12345
-// boolean
-// const isLoggedIn: boolean = false
-var addTow = function (num) {
-    return num + 2;
+var myUser = {
+    _id: "1234",
+    name: "Dinesh",
+    email: "abc@gmail.com",
+    isActive: true,
 };
-addTow(5);
+myUser.email = "embleton@gmail.com";
